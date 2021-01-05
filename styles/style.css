@@ -106,8 +106,17 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
 main .nuestrostemas_icono img{
   width: 32,5%;
 }
+main .episodios{
+  background-color: #0000FF;
+}
 
+main .novedades{
+  background-color: #0000FF;
+}
 
+main .boton{
+  background-color: #00F3BB;
+}
 main .centrar{
   display: block;
   margin-left: auto;
@@ -117,7 +126,7 @@ main .centrar{
 
 
 main h3{
-  /* font-family: IBMPlexSans-SemiBold; */
+  font-family: IBMPlexSans-SemiBold;
   font-size: 24px;
   color: #060A24;
   letter-spacing: 0;
@@ -126,7 +135,7 @@ main h3{
 
 
 main h2 {
-  /* font-family: IBMPlexSans; */
+  font-family: IBMPlexSans;
   font-size: 36px;
   color: #060A24;
   letter-spacing: 0;
@@ -134,13 +143,16 @@ main h2 {
 }
 
 p{
-  /* font-family: IBMPlexMono; */
+  font-family: IBMPlexMono;
   font-size: 14px;
   color: #060A24;
   letter-spacing: 0;
   line-height: 22px;
 }
 
+footer{
+  position:absolute;
+}
 
 /*menu simple con tamaño menor a 1000px*/
 /* Esto es para desktop */
