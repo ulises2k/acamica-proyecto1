@@ -111,6 +111,14 @@ main .episodios{
   background-color: #0000FF;
 }
 
+main .episodios_titulo{
+  color: white;
+}
+
+main .novedades_titulo{
+  color: white;
+}
+
 main .novedades{
   background-color: #0000FF;
 }
@@ -118,13 +126,13 @@ main .novedades{
 main .boton{
   background-color: #00F3BB;
 }
+
 main .centrar{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
 
 main h3{
   font-family: "IBM Plex Sans";
@@ -139,7 +147,6 @@ main h3{
 main h2 {
   font-family: "IBM Plex Sans";
   font-size: 36px;
-  color: #060A24;
   letter-spacing: 0;
   line-height: 42px;
 }
@@ -159,6 +166,20 @@ footer{
 .tachar{
   text-decoration:line-through
 }
+
+main .boton a:link, a:visited, a:active {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 22px;
+  text-decoration:none;
+}
+
+a:link, a:visited, a:active {
+}
+
 /*menu simple con tamaño menor a 1000px*/
 /* Esto es para desktop */
 @media screen and (min-width: 1000px){
@@ -193,8 +214,6 @@ footer{
   }
 
 }
-
-
 
 body{
   font-family: "Calibri";
